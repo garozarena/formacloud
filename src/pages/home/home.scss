@@ -1,0 +1,52 @@
+header {
+    padding: 7%;
+    height: 15%;
+}
+
+#logo {
+    width: 20%;
+    float: left;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0 !important;
+    padding: 0 1%;
+    width: 75%;
+    float: left;
+    color: gray !important;
+}
+
+h3 {
+    text-align: center;
+}
+
+#cajaLogin {
+    width: 75%;
+    display: block;
+    list-style: none;
+    padding: 5% 0;
+    margin: 5% auto;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    background: -webkit-linear-gradient(top,#f7f6f6 0%,#ccccff 100%);
+    box-shadow: #8d8d8d 0px 5px 10px;
+}
+ input{
+     width: 100%;
+ }
+.campo {
+    width: 45%;
+    float: left;
+    margin: 2% 0;
+}
+
+.centrar {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}

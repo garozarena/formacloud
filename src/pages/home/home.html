@@ -1,0 +1,27 @@
+
+
+<ion-content padding>
+    <header>
+        <img id="logo" src="assets/imgs/logo.png" />
+        <h2>Software de gestión integral</h2>
+      </header>
+  <div id="cajaLogin">
+    <h3>Acceder</h3>
+    <div>
+      <div class="campo centrar"> Usuario: </div> 
+      <div class="campo centrar"> <input type="text" name="Nombre" [(ngModel)]="nombre"> </div>
+    </div>
+    <div>
+      <div class="campo centrar"> Contraseña: </div>
+      <div class="campo centrar"> <input type="password" name="Pass"[(ngModel)]="pass"> </div>
+    </div>
+    <div class="centrar">
+        <button class="btn btn-lg btn-dark" (click)="acceder()"> Acceder </button>
+    </div>
+  </div>
+    
+  
+</ion-content>
+<ion-footer>
+    (c) formacloud [Versión 1.2, 03-Mar-2015]
+</ion-footer>
